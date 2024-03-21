@@ -1,0 +1,170 @@
+/* CSS CHECKER */
+/* *{
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}  */
+
+*{
+  font-family: "Raleway", sans-serif;
+}
+ body {
+  background-image: linear-gradient(rgba(9, 139, 204, 0.9), rgba(9, 90, 147, 0.9));
+ }
+ 
+ .App {
+  text-align: center;
+}
+
+.nav{
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-bottom: 1em;
+  text-align: center;
+  overflow: hidden;
+  
+}
+
+.logo{
+  position:absolute;
+  padding: 10px;
+}
+
+.nav img{
+  height: 45px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  
+  display: inline;
+  /* float: left; */
+  /* border-right: 1px solid #000; */
+}
+
+li a {
+  display: inline;
+  color: #095A93;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #098BCC;
+  color: white;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+/* dropdown */
+
+.dropdown {
+  display: inline;
+  /* float: left; */
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: #095A93;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  
+}
+
+.nav a:hover, .dropdown:hover .dropbtn {
+  background-color: #098BCC;
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #098bccc9;
+}
+
+.dropdown:hover .dropdown-content {
+  position: fixed;
+  left: 34vw;
+  display: block;
+}
+/* END */
+
+
+.App-header {
+  background-image: url('https://static.wixstatic.com/media/bdab60_4f788e0548cc4b018974fe28468940c9~mv2.jpg/v1/fill/w_980,h_693,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/bdab60_4f788e0548cc4b018974fe28468940c9~mv2.jpg'); /* Use the path to your background image */
+  background-size: cover; /* Use the path to your background image */
+  background-position: center; /* Use the path to your background image */
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.banner-box {
+  text-align: left;
+  max-width: 45vw;
+  background-color: #095A93;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  margin-left: 0;
+  margin-right: auto;
+  border-radius: 0 10px 10px 0;
+}
+
+
+.banner-box button {
+  margin-right: 10px;
+  background-color: #F2F91F;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.banner-box button:hover {
+  background-color: #D1ED07;
+}
+
+a:link{
+  text-decoration: none;
+}
