@@ -59,15 +59,15 @@ function App() {
       <section className="Features">
         <h2>Key Features</h2>
         <div className="feature">
-          <h3>Easy Booking</h3>
+          <h2>Easy Booking</h2>
           <p>Book your court in just a few clicks.</p>
         </div>
         <div className="feature">
-          <h3>Flexible Schedule</h3>
+          <h2>Flexible Schedule</h2>
           <p>Choose your preferred time slot.</p>
         </div>
         <div className="feature">
-          <h3>Online Payment</h3>
+          <h2>Online Payment</h2>
           <p>Securely pay for your reservation online.</p>
         </div>
       </section>
@@ -77,7 +77,7 @@ function App() {
         <a href="#signup" className="signup-btn">Sign Up</a>
       </section>
       <footer className="Footer">
-        <p>&copy; 2024 Tennis Court Reservation. All rights reserved.</p>
+        <p>&copy; 2024 RCW Athletic Club. All rights reserved.</p>
       </footer>
     </div>
 
